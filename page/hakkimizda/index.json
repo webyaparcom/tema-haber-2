@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 4,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "tti34g",
+      "b1776b"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Kent Sayfası, haberi iki kaynakla doğrulayıp tarihleyerek yayımlayan kurgusal bir demo yerel portaldır. Resmî ilan yayımlanmaz; içerik kurgusaldır.",
+    "en": "Kent Sayfasi is a fictional demo local portal that publishes stories after verifying them with two sources and dating them. No official notices are published; the content is fictional.",
+    "ar": "كنت صايفاسي بوابة محلية تجريبية افتراضية تنشر الأخبار بعد التحقق منها بمصدرين وتأريخها. لا تُنشر إعلانات رسمية؛ والمحتوى افتراضي."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-05T19:38:53.271Z",
+  "date": "2026-10-30"
+}

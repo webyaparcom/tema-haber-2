@@ -1,0 +1,59 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Kent Sayfası: yerel haber ve şehir rehberi; künye ana sayfadan erişilir, her haberde yayın tarihi yer alır. (Demo site — haberler kurgusaldır)",
+    "en": "Kent Sayfasi: local news and city guide; the masthead is reachable from the home page and every story shows its publication date. (Demo site — stories are fictional)",
+    "ar": "كنت صايفاسي: أخبار محلية ودليل المدينة؛ تُتاح بيانات الإدارة من الصفحة الرئيسية ويظهر تاريخ النشر في كل خبر. (موقع تجريبي — الأخبار افتراضية)"
+  },
+  "keyword": {
+    "tr": "haber, şehir rehberi, yerel haber",
+    "en": "news, city guide, local news",
+    "ar": "أخبار، دليل المدينة، أخبار محلية"
+  },
+  "category": "Galeri",
+  "name": "Kent Sayfası",
+  "domain": "haber-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "lora",
+    "heading": "fraunces",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#15181B",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "1px",
+    "--mx-radius-md": "2px",
+    "--mx-radius-lg": "3px",
+    "--mx-radius-xl": "4px",
+    "--mx-shadow-md": "none",
+    "--mx-dur": "200ms"
+  },
+  "icon": "icon.png",
+  "phone": "+90 342 000 00 00",
+  "email": "haber@kentsayfasi.example",
+  "address": "Gazete Sk. No: 15, Şahinbey, Gaziantep (kurgusal adres)"
+}
