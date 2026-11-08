@@ -1,0 +1,43 @@
+{
+  "id": "misyon",
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "misyon",
+  "icon": "policy",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "u1ldc9"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misyonumuz, şehrin gündemini doğrulanmış, tarihli ve şeffaf biçimde okurlara ulaştırmaktır.</p>",
+    "en": "<h2>Our mission</h2>\n<p>Our mission is to bring the city’s agenda to readers in a verified, dated and transparent way.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا إيصال أجندة المدينة إلى القراء بشكل موثّق ومؤرخ وشفاف.</p>"
+  },
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "date": "2026-10-31T15:04:18.503Z",
+  "update": "2026-11-05T19:38:53.300Z"
+}
