@@ -38,21 +38,21 @@
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/lora/lora-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/lora.css?v=u97z2" />
-  <link rel="stylesheet" href="/src/fonts/fraunces.css?v=u97z2" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=u97z2" />
-  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=u97z2" />
-  <link rel="stylesheet" href="/src/rubik.css?v=u97z2" />
-  <link rel="stylesheet" href="/src/css.css?v=u97z2" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=u97z2" />
+  <link rel="stylesheet" href="/src/fonts/lora.css?v=b5uzp" />
+  <link rel="stylesheet" href="/src/fonts/fraunces.css?v=b5uzp" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=b5uzp" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=b5uzp" />
+  <link rel="stylesheet" href="/src/rubik.css?v=b5uzp" />
+  <link rel="stylesheet" href="/src/css.css?v=b5uzp" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=b5uzp" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=u97z2" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=b5uzp" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=u97z2" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=b5uzp" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=u97z2" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=u97z2" />
-  <link rel="shortcut icon" href="/img/icon.png?v=u97z2" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=b5uzp" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=b5uzp" />
+  <link rel="shortcut icon" href="/img/icon.png?v=b5uzp" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -115,7 +115,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=u97z2">
+<link rel="stylesheet" href="style.css?v=b5uzp">
 </head>
 
 <body>
@@ -229,6 +229,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="Navigasyon">
         <ul><li><a class="h0001-m9-oge" href="/tr/haber-gonder/">Haber Gönder</a></li><li><a class="h0001-m9-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m9-oge" href="/tr/hakkimizda/">Hakkımızda</a></li><li><a class="h0001-m9-oge" href="/tr/iletisim/">İletişim</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-l5zs62-panel" aria-label="Menüyü Aç/Kapat">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -280,6 +281,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -520,6 +523,7 @@
     <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
   </div>
 </footer>
+<nav class="f0000-f9__bar" aria-label="Ana menü"><a class="f0000-f9__bar-oge" href="/tr/" aria-current="page"><span class="material-symbols-outlined" aria-hidden="true">home</span><span class="f0000-f9__bar-ad">Anasayfa</span></a><a class="f0000-f9__bar-oge" href="/tr/kunye/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Künye</span></a><a class="f0000-f9__bar-oge" href="/tr/kategoriler/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Kategoriler</span></a><a class="f0000-f9__bar-oge" href="/tr/haber-gonder/"><span class="material-symbols-outlined" aria-hidden="true">newspaper</span><span class="f0000-f9__bar-ad">Haber Gönder</span></a><a class="f0000-f9__bar-oge" href="/tr/galeri/"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span><span class="f0000-f9__bar-ad">Galeri</span></a></nav>
 
 <div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
   <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#haber-2" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
@@ -530,10 +534,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=u97z2"></script>
-  <script defer src="/src/mx-store.js?v=u97z2"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=u97z2"></script>
-  <script defer src="/src/cookie.js?v=u97z2"></script>
+  <script defer src="/src/mx-ui.js?v=b5uzp"></script>
+  <script defer src="/src/mx-store.js?v=b5uzp"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=b5uzp"></script>
+  <script defer src="/src/cookie.js?v=b5uzp"></script>
 
 </body>
 
